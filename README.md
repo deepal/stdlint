@@ -143,7 +143,7 @@ To see if a particular rule supports any configurations, please refer to the doc
 
 `stdlint` does not ship with a built-in rule set. You can instruct `stdlint` to use a rule set by installing it as an npm module and reference the rule set in `.stdlintrc` as the follows. 
 
-Following example shows how to use `stdlint-config-bibliocircle` rule set with `stdlint`. You can find the repository for `stdlint-config-bibliocircle` [here](https://github.com/deepal/stdlint-config-bibliocircle)
+Following example shows how to use `stdlint-config-bibliocircle` rule set with `stdlint`. You can find the repository for `stdlint-config-bibliocircle` [here](https://github.com/deepal/stdlint-config-bibliocircle).
 
 e.g,
  - Install `stdlint-config-bibliocircle` module in your project
