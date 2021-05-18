@@ -1,0 +1,43 @@
+{
+  "name": "stdlint",
+  "version": "0.0.1",
+  "description": "Regulate development standards",
+  "main": "index.js",
+  "bin": {
+    "stdlint": "index.js"
+  },
+  "scripts": {
+    "test": "nyc --reporter=lcov mocha './test/**/*.js'",
+    "release": "standard-version"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deepal/stdlint"
+  },
+  "engines": {
+    "node": ">14"
+  },
+  "author": "Deepal Jayasekara <dpjayasekara@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "cli-progress": "^3.9.0",
+    "colors": "^1.4.0",
+    "commander": "^7.2.0",
+    "js2xmlparser": "^4.0.1",
+    "octokit": "^1.0.3",
+    "simple-git": "^2.38.0"
+  },
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "eslint": "^7.25.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-prettier": "^3.4.0",
+    "mocha": "^8.4.0",
+    "nyc": "^15.1.0",
+    "prettier": "^2.2.1",
+    "proxyquire": "^2.1.3",
+    "sinon": "^10.0.0",
+    "standard-version": "^9.3.0"
+  }
+}
