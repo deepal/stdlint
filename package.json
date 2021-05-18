@@ -1,7 +1,7 @@
 {
   "name": "stdlint",
   "version": "0.0.1",
-  "description": "Regulate development standards",
+  "description": "A non-opinionated development standard linter that helps you keep your repositories clean and consistent!",
   "main": "index.js",
   "bin": {
     "stdlint": "index.js"
